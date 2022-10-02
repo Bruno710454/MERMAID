@@ -17,7 +17,8 @@ section {
     height: 50px;
     background-color: black;
     color: white;
-    padding-left: 5px;    
+    padding-left: 5px;
+    width: 100%;    
 }
 
 header {
@@ -35,13 +36,32 @@ main {
     padding: 0px 10%;
 }
 
+.maindiv > p {
+    width: 300px;
+    padding-top: 20px;
+}
+
+.maindiv {
+}
+
 @media (max-width:1061px){
     main {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
     }
+
 }
+
+
+@media (min-width:1024px){
+        main {
+            font-size: 28px;
+        }
+
+}
+
+
 
 #letra {
     color: orange;
@@ -67,6 +87,22 @@ footer {
 .b:hover {
     background-color: rgb(46, 46, 46);
     color: orange;
+}
+
+.bnt {
+    text-decoration: none;
+    color: black;
+}
+
+.bnt2 {
+    margin-top: 20px;
+    width: 100px;
+    height: 35px;
+    padding-top: 7px;
+    background-color: orange;
+    text-align: center;
+    border-radius: 8px;
+
 }
 
 
