@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Roboto&display=swap');
+
+body {
+    font-family: 'Anton', sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: black;
+    color: white;
+    padding-left: 5px;    
+}
+
+header {
+    height: 30px;
+    background-color: orange;
+    transition: 0.9s;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10%;
+}
+
+@media (max-width:734px){
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
+
+#letra {
+    color: orange;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.b{
+    text-decoration: none;
+    color: white;
+    height: 48px;
+    width: 90px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.b:hover {
+    background-color: rgb(46, 46, 46);
+    color: orange;
+}
+
+
+
+
