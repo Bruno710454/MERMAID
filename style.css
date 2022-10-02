@@ -18,7 +18,7 @@ section {
     background-color: black;
     color: white;
     padding-left: 5px;
-    width: 100%;    
+    width: auto;    
 }
 
 header {
@@ -39,6 +39,13 @@ main {
 .maindiv > p {
     width: 300px;
     padding-top: 20px;
+    font-size: 20px;
+}
+
+.p-main {
+    color: #E84305;
+    margin-bottom: 8px;
+    font-weight: bolder;
 }
 
 .maindiv {
