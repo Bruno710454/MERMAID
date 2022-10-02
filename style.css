@@ -48,7 +48,8 @@ main {
     font-weight: bolder;
 }
 
-.maindiv {
+.maindiv > h1 {
+    font-size: 45px;
 }
 
 @media (max-width:1061px){
