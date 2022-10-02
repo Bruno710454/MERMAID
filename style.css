@@ -35,7 +35,7 @@ main {
     padding: 0px 10%;
 }
 
-@media (max-width:734px){
+@media (max-width:1061px){
     main {
         display: flex;
         flex-direction: column;
