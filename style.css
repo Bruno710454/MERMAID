@@ -52,7 +52,7 @@ main {
     font-size: 38px;
 }
 
-@media (max-width:1061px){
+@media (max-width:500px){
     main {
         display: flex;
         flex-direction: column;
@@ -66,6 +66,20 @@ main {
         main {
             font-size: 28px;
         }
+
+}
+
+@media (min-width:375px){
+    .maindiv >h1 {
+        font-size: 28px;
+    }
+
+}
+
+@media (min-width:320px){
+    .maindiv >h1 {
+        font-size: 25px;
+    }
 
 }
 
