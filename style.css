@@ -40,12 +40,14 @@ main {
     width: 300px;
     padding-top: 20px;
     font-size: 20px;
+    color: #A6A6A8;
 }
 
 .p-main {
     color: #E84305;
     margin-bottom: 8px;
     font-weight: bolder;
+    font-size: 20px;
 }
 
 .maindiv > h1 {
@@ -62,24 +64,29 @@ main {
 }
 
 
-@media (min-width:1024px){
-        main {
-            font-size: 28px;
+@media (max-width:1024px){
+        .maindiv >h1 {
+            font-size: 20px;
+        }
+
+        .p-main {
+            font-size: 16px;
         }
 
 }
 
-@media (min-width:375px){
+@media (max-width:375px){
     .maindiv >h1 {
         font-size: 28px;
     }
 
 }
 
-@media (min-width:320px){
+@media (max-width:320px){
     .maindiv >h1 {
-        font-size: 25px;
+        font-size: 20px;
     }
+
 
 }
 
