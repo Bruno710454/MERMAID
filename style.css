@@ -12,6 +12,9 @@
 
 body {
     font-family: 'Anton', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
 section {
@@ -94,6 +97,7 @@ header {
 
     .main-contato > p {
         margin:auto ;
+        height: auto;
     }
     
     .main-contato{
@@ -114,7 +118,6 @@ footer {
     height: 40px;
     text-align: center;
     padding-top: 10px;
-    margin-top: auto;
     width: auto;
 }
 
@@ -165,11 +168,11 @@ footer {
     text-align: center;
     justify-content: space-evenly;
     align-items: center;
-    height: 100vh;
+    flex-grow: 1;
 }
 
 
-@media (max-width:1025px) {
+@media (max-width:600px) {
     .main-contato {
         display: flex;
         flex-direction: column;
