@@ -29,6 +29,7 @@ header {
     height: 30px;
     background-color: orange;
     transition: 0.9s;
+    width: auto;
 }
 
 .main-index {
@@ -91,6 +92,13 @@ header {
         font-size: 20px;
     }
 
+    .main-contato > p {
+        margin:auto ;
+    }
+    
+    .main-contato{
+        margin:auto ;
+    }
 
 }
 
@@ -106,6 +114,8 @@ footer {
     height: 40px;
     text-align: center;
     padding-top: 10px;
+    margin-top: auto;
+    width: auto;
 }
 
 .b{
@@ -142,7 +152,15 @@ footer {
 
 }
 
-.main-contato {  
+
+.main-contato > p {
+    box-shadow: 10px 10px 10px 10px #ccc;
+    padding: 10px;
+    width: 500px;
+    color: #858585;
+}
+
+.main-contato {
     display: flex;
     text-align: center;
     justify-content: space-evenly;
@@ -158,17 +176,25 @@ footer {
         text-align: center;
         justify-content: space-evenly;
         align-items: center;
+        padding-top: 50px;
+        width: auto;
+        margin: auto;
     }
 
-    
+    .main-contato > p {
+        width: auto;
+        margin: auto;
+    }
+
+
+}
+
+
+
 .img-contato {
     text-align: center;
     display: flex;
-}
-}
-
-.img-contato {
-    text-align: center;
+    flex-direction: column;
 }
 
 
