@@ -182,11 +182,13 @@ footer {
         padding-top: 50px;
         width: auto;
         margin: auto;
+        padding: 20px;
     }
 
     .main-contato > p {
         width: auto;
         margin: auto;
+        padding: 10px;
     }
 
 
