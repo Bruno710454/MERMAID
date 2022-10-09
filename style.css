@@ -202,4 +202,9 @@ footer {
     flex-direction: column;
 }
 
+.icons-contato {
+    display: flex;
+    justify-content: space-around;
+}
+
 
