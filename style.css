@@ -208,4 +208,27 @@ footer {
     justify-content: space-around;
 }
 
+.main-historia {
+    width: auto;
+    margin: auto;
+    flex-grow: 1;
+    padding: 50px;
+    color: #858585;
+}
+
+.main-historia > p {
+    margin-top: 20px;
+}
+
+
+.div-historia {
+    display: flex;
+    gap: 10px;
+}
+
+.div-traço {
+    height: 5px;
+    background-color: orange;
+    margin-top: 5px;
+}
 
